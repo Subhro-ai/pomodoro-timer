@@ -3,7 +3,7 @@ p {
 }
 
 #min, #secs {
-    font-size: 108px;
+    font-size: 10vh;
     font-weight: 600;
 }
 #minText, #secsText {
