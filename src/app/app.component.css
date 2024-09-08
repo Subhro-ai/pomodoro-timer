@@ -108,3 +108,46 @@ button:active {
     0% { box-shadow: rgba(240, 46, 170, 0.4) 0px 0px, rgba(240, 46, 170, 0.3) 0px 0px, rgba(240, 46, 170, 0.2) 0px 0px, rgba(240, 46, 170, 0.1) 0px 0px, rgba(240, 46, 170, 0.05) 0px 0px; }
     100% { box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; }
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 80vw;
+        height: 80vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        gap: 8px;
+    }
+
+    app-title {
+        grid-column: span 3 / span 5;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    }
+
+    app-timer {
+        grid-column: span 3 / span 5;
+    grid-row: span 3 / span 3;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    }
+
+    .startDiv {
+        grid-column: span 3 / span 3;
+    grid-column-start: 1;
+    grid-row-start: 5;
+    }
+
+    .pauseDiv {
+        grid-column: span 3 / span 3;
+    grid-row-start: 6;
+    }
+
+    .stopDiv {
+        grid-column: span 3 / span 3;
+    grid-row-start: 7;
+    }
+
+
+
+}
