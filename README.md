@@ -9,7 +9,7 @@ A simple and customizable Pomodoro Timer built using Angular to boost your produ
 ![Pomodoro Timer UI](assets/Screenshot%20.png)
 
 
-## Tech Stack
+## Tech Stac
 
 **Angular** - Framework for building the application
 
